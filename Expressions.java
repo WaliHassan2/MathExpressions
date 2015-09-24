@@ -17,24 +17,25 @@ public class Expressions {
 	/*
 	 * The expression for addiv was changed to a double so the output would display the correct value as written on the chart  
 	 * The expression for multi was also changed so that the correct value would be displayed as per the chart
-	 * 	 
+	 * Part 1 	 
 	 * */
 	div = 1 / 2;
-	System.out.println(div);
+	System.out.println("The result of the expression 1 / 2 = " + div);
 	rem = 1 % 2;
-	System.out.println(rem);
+	System.out.println("The result of the expression 1 % 2 = " + rem);
 	div2 = 1.0 / 2;
-	System.out.println(div2);
+	System.out.println("The result of the expression 1.0 / 2 = " + div2);
 	addiv = 5 + 7.0 / 2.0;
-	System.out.println(addiv);
+	System.out.println("The result of the expression 5 + 7 / 2 = " + addiv);
 	String slogan = "Beat" + ' ' + "Army";
-	System.out.println(slogan);
+	System.out.println("The result of the expression "Beat" + ' ' + "Army" = " + slogan);
 	addivsub = 6 + 13 / 5 - 35 % 3;
-	System.out.println(addivsub);
+	System.out.println("The result of the expression 6 + 13 / 5 -35 % 3 = " + addivsub);
 	multi = (3.5 * 5 / 4);
-	System.out.println(multi);
+	System.out.println("The result of the expression 3.5 * (5/4) = " + multi);
 	multi2 = (3.5 * 5) / 4;
-	System.out.println(multi2);
+	System.out.println("The result of the expression (3.5 * 5) / 4 = " + multi2);
+	// Part 2
 	// prompt the user by using JOptionPane 
 	String input1 = JOptionPane.showInputDialog("Five numbers are needed to calculate the sum and average.\n																							Enter the first number below");
 	num1 = Integer.parseInt(input1);
