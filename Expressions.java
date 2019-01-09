@@ -1,6 +1,6 @@
 /**
 	 * Purpose:
-	 * Demonstrate how to +,-,*,/,%(modulation) returns a remainder
+	 * Demonstrate how +,-,*,/,%(modulation) returns a remainder
 	 * Date 9/24/2015
 	 * @author walihassan
 	 *
